@@ -24,4 +24,10 @@ fn main() {
     let pair = (1, true);
     println!("{:?}", pair);
     println!("{:?}", reverse(pair));
+
+    let (a, b, c, d) = tuple;
+    println!("{:?}, {:?}, {:?}, {:?}", a, b, c, d);
+
+    let matrix = Matrix(1.1, 1.2, 2.1, 2.2);
+    println!("{:?}", matrix);
 }
