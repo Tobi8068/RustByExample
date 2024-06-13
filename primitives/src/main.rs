@@ -17,6 +17,10 @@ fn main() {
                     0.1f32, 0.2f64,
                     'a', true);
     println!("{:?}", long_tuple);
+    let tuple_of_tuples = ((1u8, 2u16, 2u32), (4u64, -1i8), -2i16);
+
+    // Tuples are printable.
+    println!("tuple of tuples: {:?}", tuple_of_tuples);
     let pair = (1, true);
     println!("{:?}", pair);
     println!("{:?}", reverse(pair));
