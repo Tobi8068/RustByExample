@@ -25,6 +25,8 @@ fn main() {
     println!("{:?}", pair);
     println!("{:?}", reverse(pair));
 
+    let tuple = (1, "hello", 4.5, true);
+
     let (a, b, c, d) = tuple;
     println!("{:?}, {:?}, {:?}, {:?}", a, b, c, d);
 
@@ -36,6 +38,4 @@ fn main() {
     println!("One element tuple: {:?}", (5u32,));
     println!("Just an integer: {:?}", (5u32));
 
-    // Tuples can be destructured to create bindings.
-    let tuple = (1, "hello", 4.5, true);
 }
